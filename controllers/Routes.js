@@ -17,5 +17,7 @@ router.get('/check',(req,res) => {
 router.post("/test", async (req, res) => {
   res.status(200).send(req.body);
 });
-
+router.post("/again", async (req, res) => {
+  res.status(200).send(req.body);
+});
 module.exports = router;
